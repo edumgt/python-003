@@ -48,3 +48,7 @@ PYTHON-003/
 | 🧱 **정적 파일 폴더**                 | `static/`                                 | CSS/JS 이미지 등 정적 리소스      | - 현재는 비어있지만 향후 Bootstrap 커스터마이징용                                                                                          |
 | 🧮 **가상환경 폴더**                  | `venv/`                                   | Python 패키지 격리 환경         | - pip install 패키지들이 여기에 설치됨                                                                                               |
 | 🧾 **문서 파일**                    | `Readme.md`                               | 프로젝트 설명 문서               | - 실행 방법, 환경 세팅 요약                                                                                                         |
+
+
+## 일종의 **Human Feedback 기반 학습 루프 (Reinforcement Learning from Human Feedback, RLHF)**의 축소 버전
+캘리그래프 예제
