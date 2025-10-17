@@ -52,3 +52,27 @@ PYTHON-003/
 
 ## 일종의 **Human Feedback 기반 학습 루프 (Reinforcement Learning from Human Feedback, RLHF)**의 축소 버전
 캘리그래프 예제
+
+
+## 감정 기반
+app_feedback_training/
+│
+├── app_feedback_training.py      # FastAPI 서버 (메인 앱)
+├── emotion_image_crawler.py      # 감정별 배경 이미지 크롤러 (Unsplash)
+├── image_renderer.py             # 포스터 스타일 캘리그래피 생성기 (PIL 기반)
+│
+├── models/
+│   └── style_tuning.json
+├── fonts/
+│   └── NanumBrush.ttf
+├── static/
+│   ├── seal_red.png
+│   ├── hanji_texture.jpg
+│   └── poster_bg/
+│       ├── 기쁨/
+│       ├── 슬픔/
+│       ├── 분노/
+│       ├── 평온/
+│       ├── 열정/
+│       └── 냉정/
+└── feedback.db
